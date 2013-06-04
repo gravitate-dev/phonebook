@@ -1,0 +1,145 @@
+.selected-contact {
+border-color: red;
+background-color:purple;
+border-width: 10px;
+transition-duration: .1s;
+
+-moz-transition-duration: .1s; /* Firefox 4 */
+
+-webkit-transition-duration: .1s; /* Safari and Chrome */
+
+-o-transition-duration: .1s; /* Opera */
+}
+.speechbubble {
+background-image: url("../images/speech.png");
+background-repeat: no-repeat;
+width:100%;
+height: 500px;
+}
+
+.solid {
+width: 800px;
+height: 500px;
+}
+.speechbubble .textarea {
+position:absolute;
+display:block;
+left:90px;
+height: 60%;
+margin-left: 12%;
+margin-top: 4%;
+min-height: 40%;
+max-height:40%;
+min-width:200px;
+max-width:200px;
+bottom:50%;
+border: none;
+font-size:2em;
+resize:none;
+overflow: auto;
+
+ -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    height: 28px;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    width: 200px;
+	white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+.speechbubble #text_send {
+position:absolute;
+bottom:25%;
+left:430px;
+
+}
+
+.speechbubble input {
+position:absolute;
+bottom:25%;
+}
+.secondstyle {
+
+      -webkit-transform-style: preserve-3d;
+
+         -moz-transform-style: preserve-3d;
+
+           -o-transform-style: preserve-3d;
+
+              transform-style: preserve-3d;
+			  
+transition-timing-function: linear;
+
+-moz-transition-timing-function: linear; /* Firefox 4 */
+
+-webkit-transition-timing-function: linear; /* Safari and Chrome */
+
+-o-transition-timing-function: linear; /* Opera */
+
+transition-duration: 1s;
+
+-moz-transition-duration: 1s; /* Firefox 4 */
+
+-webkit-transition-duration: 1s; /* Safari and Chrome */
+
+-o-transition-duration: 1s; /* Opera */
+
+      -webkit-transform: rotateY( 0deg );
+
+         -moz-transform: rotateY( 0deg );
+
+           -o-transform: rotateY( 0deg );
+
+              transform: rotateY( 0deg );
+
+    }
+	
+.firststyle {
+
+      -webkit-transform-style: preserve-3d;
+
+         -moz-transform-style: preserve-3d;
+
+           -o-transform-style: preserve-3d;
+
+              transform-style: preserve-3d;
+			  
+transition-timing-function: linear;
+
+-moz-transition-timing-function: linear; /* Firefox 4 */
+
+-webkit-transition-timing-function: linear; /* Safari and Chrome */
+
+-o-transition-timing-function: linear; /* Opera */
+
+		transition-duration: 1s;
+
+-moz-transition-duration: 1s; /* Firefox 4 */
+
+-webkit-transition-duration: 1s; /* Safari and Chrome */
+
+-o-transition-duration: 1s; /* Opera */
+
+      -webkit-transform: rotateY( 180deg );
+
+         -moz-transform: rotateY( 180deg );
+
+           -o-transform: rotateY( 180deg );
+
+              transform: rotateY( 180deg );
+
+    }
+
+.mailSent {
+transition: opacity .15s ease-in-out;
+transform: scale(2,4);
+-ms-transform: scale(2,4); /* IE 9 */
+-webkit-transform: scale(2,4); /* Safari and Chrome */
+
+}
